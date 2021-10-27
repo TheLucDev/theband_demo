@@ -227,7 +227,8 @@ html{
     width: 100%;
     text-align: center;
     padding: 36px  16px;
-    /* display: block; */
+    text-shadow: 2px 1px 1px black;
+     /* display: block; */
 }
 
 .text-heading{

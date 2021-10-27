@@ -88,7 +88,7 @@
 }
 
 /* Tablet & mobile */
-@media (max-width: 1023px){
+@media (max-width: 63.9375em){
     #nav .subnav a{
         padding: 5px 15px;
     }
