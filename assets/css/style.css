@@ -46,6 +46,7 @@ html{
     margin-top: 15px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 .btn:hover{
@@ -82,9 +83,12 @@ html{
     width: 33.33333%;
 }
 
+.mt-32{
+    margin-top: 32px !important;
+}
+
 .mt-16{
     margin-top: 16px !important;
-
 }
 
 .mt-8{
@@ -107,7 +111,6 @@ html{
     right: 0;
     height: 46px;
     background-color: rgba(0, 0, 0, 0.904);
-
     position: fixed;
     z-index: 1;
 }
@@ -178,27 +181,43 @@ html{
     display: inline-block;
 }
 
+#header .mobile-menu-btn{
+    position :absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+#header .mobile-menu-btn,
 #header .search-btn{
     float: right;
     padding: 0 21px;
 }
+
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
 
 #header .search-btn:hover {
     cursor: pointer;
     background-color: #f44336;
 }
 
-
+#header .menu-icon,
 #header .search-icon{
+    font-size: 20px;
     color: #fff;
     line-height: 46px;
 }
 
 #slider{
-    /* background-color: #333; */
+    position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    position: relative;
 }
 
 .text-content{
@@ -229,9 +248,12 @@ html{
 
 #content .content-section{
     width: 800px;
-    padding: 64px 0 112px;
+    max-width: 100%;
+    padding: 64px 0px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading{
@@ -257,7 +279,6 @@ html{
 
 #content .member-list{
     margin-top: 48px;
-
 }
 
 
@@ -317,7 +338,6 @@ html{
 
 /* Places */
 .places-list{
-    padding-bottom: 160px;
     margin-top: 32px;
     margin-bottom: 32px;
 
@@ -469,6 +489,15 @@ html{
     display: inline-block;
 }
 
+.contact-info a{
+    color: blue;
+    opacity: 0.8;
+}
+
+.contact-info a:hover{
+    opacity: 1.0;
+}
+
 .contact-form{
     font-size: 15px;
 
@@ -518,4 +547,19 @@ html{
 
 #footer .copyright a{
     color: rgba(0, 0, 0, 0.8);
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
+}
+
+/* PC: width >= 1024px */
+@media only screen and (min-width: 64em) {
+
 }

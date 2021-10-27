@@ -1,0 +1,126 @@
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+
+    .text-content{
+        display: none;
+    }
+
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #nav{
+        display : block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-list{
+        margin-top: 32px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+
+    .tour-section{
+        padding: 0;
+    }
+
+    .places-list{
+        padding-bottom: 0px;
+    }
+    .contact-info{
+        line-height: 2;
+        margin-bottom: 28px;
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+    .contact-content{
+        margin-bottom: 32px;
+    }
+}
+
+/* Tablet & mobile */
+@media (max-width: 1023px){
+    #nav .subnav a{
+        padding: 5px 15px;
+    }
+    .btn{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    #footer .socials-list{
+        font-size: 48px;
+        margin: 0 12px;
+    }
+
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+/* PC: width >= 1024px */
+@media only screen and (min-width: 64em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
